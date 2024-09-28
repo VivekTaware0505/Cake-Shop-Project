@@ -1,0 +1,44 @@
+.container{
+
+    width: 80%;
+    height: 70vh;
+    background-image: linear-gradient(45deg , rgb(255, 255, 255) 10%, rgb(0, 0, 0) 10%);
+    box-shadow: 0 0 5px 0 rgb(255, 255, 255);
+    margin: auto; 
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+    }
+    .container>h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       color: whitesmoke;
+    }
+    .container>h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    .container>input{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+        height: 50px;
+        line-height: 100px;
+        border-radius: 5px;
+        padding: 0px 20px;
+      
+        align-items: center;
+        margin-left: 12%;
+        margin-top: 5%;  
+        border: solid white;
+    
+    }
+    ::placeholder{
+        color: black;
+        font-weight: 500;
+        text-transform: uppercase;
+    }

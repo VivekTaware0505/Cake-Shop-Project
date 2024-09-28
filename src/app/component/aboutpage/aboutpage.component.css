@@ -1,0 +1,23 @@
+
+h1{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 250, 254);
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom:5%;
+color: black;
+
+}
+.area{
+    color: aliceblue;
+}
+p{
+    margin-left: 7%;
+    margin-right: 7%;
+}
