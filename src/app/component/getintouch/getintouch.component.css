@@ -2,12 +2,13 @@
 
     width: 80%;
     height: 70vh;
-    background-image: linear-gradient(45deg , rgb(43, 0, 92) 10%, rgba(221, 0, 255, 0.385) 10%);
+    background-image: linear-gradient(45deg , rgb(0, 0, 0) 10%, rgb(0, 255, 153) 10%);
     box-shadow: 0 0 10px 0 rgb(0, 0, 0);
     margin: auto; 
     margin-top: 10%;
     align-items: center;
     border-radius: 10px;
+    border-bottom: solid 10px rgb(255, 0, 0);
     
     
     }

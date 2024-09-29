@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
     gap: 3%;
     margin-top: 5%;
 }
@@ -29,11 +30,13 @@ h1 {
     width: 20%;
     height: 10vh;
     display: flex;
-    border-radius: 20px;
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(130, 255, 5);
-    box-shadow: 5px 10px 10px  rgb(0, 0, 0);
+    background-color: rgb(181, 253, 0);
+    box-shadow: 2px 3px 3px  rgb(0, 0, 0);
+    border-top: 5px solid red;
+
     margin: auto;
   margin-top: 10%;
 
@@ -44,7 +47,7 @@ h1 {
 .card>button {
 
     padding: 15px 20px;
-    border-radius: 50px;
+    border-radius: 5px;
     background-color: rgb(255, 77, 225);
     box-shadow: 0 0 10px 0  rgb(77, 0, 0);
     font-size: 17px;
